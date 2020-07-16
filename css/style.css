@@ -1,0 +1,59 @@
+body{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 40px 0 0 0; 
+  margin-top: 15%;
+}
+fieldset{
+  border: none;
+}
+output{
+  display: inline-block;
+  min-width: 2.5em;
+}
+label, output{
+  padding: 2px 9px;
+  border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  font-size: 1.1em;
+}
+input[type=range] {
+  width: 200px;
+}
+input[type=text] {
+  width: 20px;
+  margin-left: 10px;
+}
+label[for=r], input[for=r]{
+  background-color: #f00;
+}
+label[for=g], input[for=g]{
+  background-color: #0f0;
+}
+label[for=b], input[for=b]{
+  background-color: #00f;
+}
+.seleciona {
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin:0;
+    width: 720px;
+    height: 180px;
+}
+
+#mostrarcor {
+
+    width: 100%;
+    height: 100%;
+    background: #730aa2;
+    transition: background 100ms;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: 1px solid #000
+}
+
+  
